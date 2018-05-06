@@ -1,0 +1,23 @@
+{
+  "name": "whoami",
+  "version": "0.0.1",
+  "description": "Request Header Parser",
+  "main": "app.js",
+  "scripts": {
+    "test": "test",
+    "start": "npm run build:live",
+    "build:live": "nodemon --exec ./node_modules/.bin/ts-node -- ./src/server.ts"
+  },
+  "author": "nosferatoy",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "nodemon": "^1.17.4"
+  },
+  "devDependencies": {
+    "@types/express": "^4.11.1",
+    "@types/node": "^10.0.4",
+    "ts-node": "^6.0.2",
+    "typescript": "^2.8.3"
+  }
+}
